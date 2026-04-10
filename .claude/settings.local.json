@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(find /Users/jayanth/Downloads/uigen -name schema.prisma -o -name *.prisma)",
+      "Bash(npm run:*)",
+      "Bash(export PATH=\"$PATH:/Users/jayanth/.nvm/versions/node/v24.14.1/bin\")",
+      "Bash(npm audit:*)",
+      "Bash(open:*)",
+      "Bash(/Users/jayanth/.nvm/versions/node/v24.14.1/bin/npm run:*)",
+      "Bash(PATH=\"/Users/jayanth/.nvm/versions/node/v24.14.1/bin:$PATH\" npm run dev)",
+      "WebFetch(domain:localhost)",
+      "Bash(gh auth:*)",
+      "Bash(git init:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)"
+    ]
+  }
+}

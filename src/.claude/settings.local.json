@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(find /Users/jayanth/Downloads/uigen -maxdepth 3 -path */.cursor/* -o -path */.github/*)"
+    ]
+  }
+}
